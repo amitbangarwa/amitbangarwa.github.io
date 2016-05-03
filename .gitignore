@@ -1,2 +1,4 @@
-.idea/
+.idea/workspace.xml
 resume/.idea
+node_modules
+public/bower_components
