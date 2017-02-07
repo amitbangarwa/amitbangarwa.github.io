@@ -1,0 +1,17 @@
+[
+    {
+        "action": "talk",
+        "text": "Please wait while we connect you"
+    },
+    {
+        "action": "connect",
+        "eventUrl": ["https://doctoroncall.com.my/nexmo/events"],
+        "timeout": "45",
+        "from": "601117227061",
+        "endpoint": [
+        {
+            "type": "phone",
+            "number": "918058474700"
+        }]
+    }
+]
