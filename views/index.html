@@ -5,72 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <title>Amit Bangarwa</title>
-    <link rel="stylesheet" href="/css/app.css" type="text/css">
     <link rel="stylesheet" href="/bower_components/angular-material/angular-material.min.css" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Montserrat:700|Merriweather:400,400i,700,700i,900,900i'
+          rel='stylesheet' type='text/css'>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+        @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+
+        body {
+            min-height: 100vh;
+            overflow: auto;
+            height: auto;
+            color: #002e2c;
+            font-family: 'Merriweather', serif;
+            background-color: #edf1f2;
+        }
+
+        a {
+            color: #002e2c;
+            text-decoration: underline;
+            transition: color .2s ease;
+        }
+
+        .header h1, .header a {
+            font-family: Playfair Display, serif;
+            margin: auto;
+            padding: 25px 0;
+        }
+
+        .header h1 {
+            text-align: left;
+        }
+
+        .header a {
+            text-align: right;
+            margin: auto 10px;
+        }
+
+        .bio {
+            margin: 30px 0;
+        }
+
+        .bio .me {
+            border-radius: 5px;
+            display: block;
+            box-shadow: 6px 6px 7px 0 #503b31;
+            width: auto;
+            height: 350px;
+        }
+
+        .bio h2 {
+            font-weight: 400;
+            margin: 0;
+            padding-right: 70px;
+            line-height: 2.625rem;
+            font-size: 1.3rem;
+        }
+
+        .footer {
+            margin: 10px 0 0 0;
+            padding: 20px 0 50px 0;
+            border-top: 1px solid rgba(0,0,0,.2);
+        }
+    </style>
 </head>
 <body>
 
-<div ng-controller="AppCtrl" layout="column" style="height:500px;" ng-cloak>
-    <section layout="row" flex>
-        <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
-            <md-toolbar class="md-theme-indigo">
-                <h1 class="md-toolbar-tools">Sidenav Left</h1>
-            </md-toolbar>
-            <md-content layout-padding ng-controller="LeftCtrl">
-                <md-button ng-click="close()" class="md-primary" hide-gt-md>
-                    Close Sidenav Left
-                </md-button>
-                <p hide-md show-gt-md>
-                    This sidenav is locked open on your device. To go back to the default behavior,
-                    narrow your display.
-                </p>
-            </md-content>
-        </md-sidenav>
-        <md-content flex layout-padding>
-            <div layout="column" layout-fill layout-align="top center">
-                <p>
-                    The left sidenav will 'lock open' on a medium (>=960px wide) device.
-                </p>
-                <p>
-                    The right sidenav will focus on a specific child element.
-                </p>
-                <div>
-                    <md-button ng-click="toggleLeft()"
-                               class="md-primary" hide-gt-md>
-                        Toggle left
-                    </md-button>
-                </div>
-                <div>
-                    <md-button ng-click="toggleRight()"
-                               ng-hide="isOpenRight()"
-                               class="md-primary">
-                        Toggle right
-                    </md-button>
-                </div>
+<div ng-controller="AppCtrl" ng-cloak>
+    <div flex-gt-sm="70" flex style="margin: auto">
+        <div class="header" layout="row">
+            <h1>amit bangarwa</h1>
+            <span flex></span>
+            <div layout="row">
+                <a href="/about">about</a>
+                <a href="/resume">resume</a>
             </div>
-            <div flex></div>
-        </md-content>
-        <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
-            <md-toolbar class="md-theme-light">
-                <h1 class="md-toolbar-tools">Sidenav Right</h1>
-            </md-toolbar>
-            <md-content ng-controller="RightCtrl" layout-padding>
-                <form>
-                    <md-input-container>
-                        <label for="testInput">Test input</label>
-                        <input type="text" id="testInput"
-                               ng-model="data" md-autofocus>
-                    </md-input-container>
-                </form>
-                <md-button ng-click="close()" class="md-primary">
-                    Close Sidenav Right
-                </md-button>
-            </md-content>
-        </md-sidenav>
-    </section>
-</div>
+        </div>
+        <div class="bio">
+            <div layout-gt-sm="row" layout="column">
+                <div>
+                    <h2>
+                        Professionally, I'm Developer currently working in an awesome startup's
+                        <a href="https://justdoc.com" target="_blank">JustDoc</a>, based out of Bangalore, India and
+                        <a href="https://doctoroncall.com.my">DoctorOnCall</a>, based out of Malaysia.
+                        I enjoy taking problem and turning them into simple and beautiful interface design.
+                        I like programming and always strive for the newest technologies. Apart from being a techie
+                        geek, you'll find me either playing games or playing snooker.
+                    </h2>
+                    <p>Read <a href="/about">about</a> me, check out my <a
+                            href="http://amitbangarwa.com/resume">resume</a> or download <a href="/amitResume.pdf">my
+                        resume</a>.</p>
+                </div>
+                <img class="me" src="/img/IMG_20170515_235911.jpg">
+            </div>
+        </div>
+        <div class="footer">
+            <div layout-gt-sm="row" layout="column">
+                <a flex-gt-sm="33" flex href="mailto:amitbangarwa@gmail.com">amit.bangarwa@gmial.com</a>
+                <div class="icons">
 
+                </div>
+                <p style="margin: auto">© 2017 Amit Bangarwa</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <script type="text/javascript" src="/bower_components/angular/angular.js"></script>
