@@ -3,3 +3,6 @@ resume/.idea
 node_modules
 public/bower_components
 .idea
+.DS_Store
+npm-debug.log
+server/

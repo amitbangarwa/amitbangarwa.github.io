@@ -8,6 +8,7 @@ var app = express();
 app.set('view engine', 'html');
 app.use(express.static(__dirname + '/views'));
 app.use(express.static(__dirname + '/public'));
+
 app.get('/',function(req,res){
     res.sendFile('index.html');
     //It will find and locate index.html from View or Scripts
