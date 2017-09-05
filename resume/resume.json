@@ -22,8 +22,13 @@
       },
       {
         "network": "github",
-        "username": "amithealthist",
+        "username": "amitbangarwa",
         "url": "https://github.com/amitbangarwa"
+      },
+      {
+        "network": "github",
+        "username": "amithealthist",
+        "url": "https://github.com/amithealthist"
       },
       {
         "network": "Facebook",
@@ -35,10 +40,10 @@
   "work": [
     {
       "company": "JustDoc",
-      "position": "Web Developer",
+      "position": "Software Developer",
       "website": "https://justdoc.com",
       "startDate": "2015-08-01",
-      "endDate": "2016-04-30",
+      "endDate": "2017-08-30",
       "summary": "Built a video based platform for patients to connect directly to doctors at any time from any where.",
       "highlights": [
         "Built the entire justdoc web app using JavaScript",
