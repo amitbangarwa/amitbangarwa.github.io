@@ -1,8 +1,2 @@
-.idea/workspace.xml
-resume/.idea
-node_modules
-public/bower_components
+# Created by .ignore support plugin (hsz.mobi)
 .idea
-.DS_Store
-npm-debug.log
-server/
