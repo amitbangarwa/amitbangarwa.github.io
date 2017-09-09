@@ -5,8 +5,8 @@
     "picture": "https://preview.ibb.co/i4f2Ta/image_2.jpg",
     "email": "amit.bangarwa@gmail.com",
     "phone": "+91-903-510-6814",
-    "website": "amitbangarwa.com",
-    "summary": "Professionally, I'm Developer currently working in an awesome startup, JustDoc, based out of Bangalore, India. I enjoy taking problem and turning them into simple and beautiful interface design. I like programming and always strive for the newest technologies. Apart from being a techie geek, you'll find me either playing computer games or playing snooker.",
+    "website": "http://amitbangarwa.com",
+    "summary": "I'm a developer currently working in an startup, JustDoc, based out of Bangalore, India. I enjoy taking problem and turning them into simple and beautiful interface design. I like programming and always strive for the newest technologies. Apart from being a techie geek, you'll find me either playing computer games or playing snooker.",
     "location": {
       "address": "#127, 13th Main, Hal 3rd Stage, Kodihalli",
       "postalCode": "560008",
@@ -50,7 +50,8 @@
         "Rewrote entire justdoc web app in angular.js",
         "Used frameworks like Angular Material and Bootstrap",
         "Building and managing REST api’s (Node.js)",
-        "Built real time chat messaging using socket"
+        "Built real time chat messaging using socket",
+        "Built entire admin dashboard for operations and sales teams to maintain analytics"
       ]
     },
     {
