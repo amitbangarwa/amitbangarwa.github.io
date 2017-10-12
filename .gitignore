@@ -1,2 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
+docs/binary-static/node_modules/
+.DS_Store
