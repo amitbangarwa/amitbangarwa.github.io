@@ -101,7 +101,7 @@
         "JavaScript",
         "Html5",
         "Css3",
-        "Php",
+        "Python",
         "Bash",
         "TypeScript"
       ]
@@ -116,6 +116,7 @@
         "MaterialDesignLite",
         "Materialize",
         "Express",
+        "Django",
         "Hapi",
         "Socket.io",
         "Ionic"
@@ -131,13 +132,15 @@
         "Git",
         "WebStorm",
         "Intellij IDEA",
-        "Sublime"
+        "Brackets"
       ]
     },
     {
       "name": "Preprocessors",
       "level": "Beginner",
       "keywords": [
+        "Ejs",
+        "Handlebars",
         "Babel",
         "Jade",
         "CoffeeScript",
