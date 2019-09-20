@@ -1,173 +1,183 @@
 {
-  "basics": {
-    "name": "Amit Bangarwa",
-    "label": "Software Developer",
-    "picture": "https://preview.ibb.co/i4f2Ta/image_2.jpg",
-    "email": "amit.bangarwa@gmail.com",
-    "phone": "+91-903-510-6814",
-    "website": "http://amitbangarwa.com",
-    "summary": "I'm a developer currently working in an startup, JustDoc, based out of Bangalore, India. I enjoy taking problem and turning them into simple and beautiful interface design. I like programming and always strive for the newest technologies. Apart from being a techie geek, you'll find me either playing computer games or playing snooker.",
-    "location": {
-      "address": "#127, 13th Main, Hal 3rd Stage, Kodihalli",
-      "postalCode": "560008",
-      "city": "Bangalore",
-      "countryCode": "India",
-      "region": ""
+    "basics": {
+        "name": "Amit Bangarwa",
+        "label": "Software Developer",
+        "picture": "https://preview.ibb.co/i4f2Ta/image_2.jpg",
+        "email": "amit.bangarwa@gmail.com",
+        "phone": "+91-903-510-6814",
+        "website": "http://amitbangarwa.com",
+        "summary": "Experienced software developer with a demonstrated history of working in the IT industry. I have experience working with Angular, React, Django, Python, Node, MEAN stack, and other front-end and back-end frameworks and tools.",
+        "location": {
+            "address": "#127, 13th Main, Hal 3rd Stage, Kodihalli",
+            "postalCode": "560008",
+            "city": "Bangalore",
+            "countryCode": "India",
+            "region": ""
+        },
+        "profiles": [
+            {
+                "network": "github",
+                "username": "amithealthist",
+                "url": "https://github.com/amithealthist"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "amitbangarwa",
+                "url": "https://in.linkedin.com/in/amitbangarwa"
+            },
+            {
+                "network": "Facebook",
+                "username": "amitbangarwa1",
+                "url": "https://www.facebook.com/amitbangarwa1"
+            },
+            {
+                "network": "github",
+                "username": "amitbangarwa",
+                "url": "https://github.com/amitbangarwa"
+            }
+        ]
     },
-    "profiles": [
-      {
-        "network": "github",
-        "username": "amithealthist",
-        "url": "https://github.com/amithealthist"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "amitbangarwa",
-        "url": "https://in.linkedin.com/in/amitbangarwa"
-      },
-      {
-        "network": "Facebook",
-        "username": "amitbangarwa1",
-        "url": "https://www.facebook.com/amitbangarwa1"
-      },
-      {
-        "network": "github",
-        "username": "amitbangarwa",
-        "url": "https://github.com/amitbangarwa"
-      }
-    ]
-  },
-  "work": [
-    {
-      "company": "JustDoc",
-      "position": "Software Developer",
-      "website": "https://justdoc.com",
-      "startDate": "2015-08-01",
-      "summary": "Built a video based platform for patients to connect directly to doctors at any time from any where.",
-      "highlights": [
-        "Built the entire justdoc web app using JavaScript",
-        "Built video chat platform between patients and doctors",
-        "Rewrote entire justdoc web app in angular.js",
-        "Used frameworks like Angular Material and Bootstrap",
-        "Building and managing REST api’s (Node.js)",
-        "Built real time chat messaging using socket",
-        "Built entire admin dashboard for operations and sales teams to maintain analytics"
-      ]
-    },
-    {
-      "company": "DoctorOnCall",
-      "position": "Full Stack Developer",
-      "website": "https://doctoroncall.com.my",
-      "startDate": "2016-03-01",
-      "highlights": [
-        "Built a entire platform for Malaysian client",
-        "Built video & chat based platform between patients and doctors",
-        "Handling both client side and back end side",
-        "Built entire site in angular.js and angular material",
-        "Building and managing REST api’s (Node.js)",
-        "Built entire admin Dashboard for DoctorOnCall"
-      ]
-    }
-  ],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "Sri Jayachamarajendra College of Engineering",
-      "area": "Computer Application",
-      "studyType": "Master's",
-      "startDate": "2012-07-01",
-      "endDate": "2015-06-30",
-      "gpa": "8.25",
-      "courses": []
-    },
-    {
-      "institution": "Durgapur Society of Management Science",
-      "area": "Computer Application",
-      "studyType": "Bachelor",
-      "startDate": "2008-07-01",
-      "endDate": "2011-06-30",
-      "gpa": "7.75",
-      "courses": []
-    }
-  ],
-  "awards": [],
-  "publications": [],
-  "skills": [
-    {
-      "name": "Languages",
-      "level": "Master",
-      "keywords": [
-        "Es6 (ECMAScript6)",
-        "JavaScript",
-        "Html5",
-        "Css3",
-        "Python",
-        "Bash",
-        "TypeScript"
-      ]
-    },
-    {
-      "name": "FrameWork",
-      "level": "Master",
-      "keywords": [
-        "AngularJs",
-        "Bootstrap",
-        "Angular Material",
-        "MaterialDesignLite",
-        "Materialize",
-        "Express",
-        "Django",
-        "Hapi",
-        "Socket.io",
-        "Ionic"
-      ]
-    },
-    {
-      "name": "Tools",
-      "level": "Master",
-      "keywords": [
-        "Node",
-        "Gulp",
-        "Grunt",
-        "Git",
-        "WebStorm",
-        "Intellij IDEA",
-        "Brackets"
-      ]
-    },
-    {
-      "name": "Preprocessors",
-      "level": "Beginner",
-      "keywords": [
-        "Ejs",
-        "Handlebars",
-        "Babel",
-        "Jade",
-        "CoffeeScript",
-        "Sass"
-      ]
-    },
-    {
-      "name": "Data",
-      "level": "Master",
-      "keywords": [
-        "Redis",
-        "PostgreSql",
-        "MongoDb",
-        "Sql"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluently"
-    },
-    {
-      "language": "Hindi",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [],
-  "references": []
+    "work": [
+        {
+            "company": "Health Care Innovate Pty Ltd (Clinivid)",
+            "position": "Full stack developer",
+            "website": "https://clinivid.com",
+            "startDate": "2018-10-01",
+            "summary": "I am working on the module called Multidisciplinary Team Meeting (MDT) where the group of professionals from one or more clinical disciplines who together make decisions regarding recommended treatment of individual PATIENTS. This whole module is developed using the ReactJs, Redux, NodeJs, ExpressJs, PostgreSql stacks.",
+            "highlights": [
+                "Developed a full-stack responsive website",
+                "CRUD operations on meetings, cases, and items",
+                "Build and manage the APIs. Currently working on the component where clinical disciplines share the information through the screen sharing option"
+            ]
+        },
+        {
+            "company": "Born",
+            "position": "Backend developer",
+            "website": "https://born.com",
+            "startDate": "2019-04-01",
+            "endDate": "2019-08-30",
+            "summary": "This was my freelancing project which was recommended by a friend. In this project, I had created an API's for there different categories of products which relate to brands and retailers. I used NodeJs, HapiJs, PostgreSQL, AWS, Git as stacks."
+        },
+        {
+            "company": "AGNT",
+            "position": "Front end developer",
+            "website": "https://agnt.com",
+            "startDate": "2017-12-01",
+            "endDate": "2018-09-30",
+            "summary": "AGNT is a platform where you can join as an organizer or artist. As an organizer role, you can search for an artist in the particular location and send a request to them and as for artists, you can showcase your talent via uploading music or videos, managing your bookings and some other features as well. I used ReactJs with Redux."
+        },
+        {
+            "company": "Charmboard",
+            "position": "Backend developer",
+            "website": "https://charmboard.com",
+            "startDate": "2017-09-01",
+            "endDate": "2017-11-30",
+            "summary": "Charmboard inspires you to discover what you love, mainly from the video. My role in this company was to create a charm management system (what I called it) where you can do the CRUD operations on charm's (Charms are moments of desire that people on Charmboard or other video OTT sites save while watching video), products and boards related to charms. I used Django with python for CMS. I also created a blog platform for in house content writers to create, edit and publish the blog with the help of the ghost platform."
+        },
+        {
+            "company": "DoctorOnCall",
+            "position": "Full stack developer",
+            "website": "https://doctoroncall.com.my",
+            "startDate": "2016-04-01",
+            "endDate": "2017-08-30",
+            "summary": "DoctorOnCall is a client of JustDoc which required the same platform as JustDoc for Malaysia."
+        },
+        {
+            "company": "JustDoc",
+            "position": "Full stack developer",
+            "website": "https://justdoc.com",
+            "startDate": "2015-08-01",
+            "endDate": "2017-08-30",
+            "summary": "Built a video based platform for patients to connect directly to doctors at any time from any where.",
+            "highlights": [
+                "Built the entire justdoc web app using JavaScript",
+                "Built video chat platform between patients and doctors",
+                "Rewrote entire justdoc web app in angular.js",
+                "Used frameworks like Angular Material and Bootstrap",
+                "Building and managing REST api’s (Node.js)",
+                "Built real time chat messaging using socket",
+                "Built entire admin dashboard for operations and sales teams to maintain analytics"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Frontend",
+            "keywords": [
+                "HTML/JSX",
+                "ReactJs",
+                "Redux",
+                "AngularJs",
+                "JavaScript/Typescript",
+                "Django"
+            ]
+        },
+        {
+            "name": "Backend",
+            "level": "Master",
+            "keywords": [
+                "NodeJs",
+                "Python",
+                "Express",
+                "PostgreSQL",
+                "Hapi",
+                "Redis"
+            ]
+        },
+        {
+            "name": "Preprocessors",
+            "keywords": [
+                "EJS",
+                "Handlebars",
+                "Babel",
+                "Jade",
+                "CoffeeScript",
+                "Sass/Less"
+            ]
+        },
+        {
+            "name": "Tools",
+            "level": "Master",
+            "keywords": [
+                "Gulp",
+                "Grunt",
+                "Git",
+                "WebStorm",
+                "PyCharm"
+            ]
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "Sri Jayachamarajendra College of Engineering",
+            "area": "Computer Application",
+            "studyType": "Master's",
+            "startDate": "2012-08-01",
+            "endDate": "2015-06-30",
+            "courses": []
+        },
+        {
+            "institution": "Durgapur Society of Management Science",
+            "area": "Computer Application",
+            "studyType": "Bachelor",
+            "startDate": "2008-08-01",
+            "endDate": "2011-06-30",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "publications": [],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Fluently"
+        },
+        {
+            "language": "Hindi",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [],
+    "references": []
 }
