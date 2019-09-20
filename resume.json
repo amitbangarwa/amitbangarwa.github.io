@@ -114,7 +114,6 @@
         },
         {
             "name": "Backend",
-            "level": "Master",
             "keywords": [
                 "NodeJs",
                 "Python",
@@ -137,7 +136,6 @@
         },
         {
             "name": "Tools",
-            "level": "Master",
             "keywords": [
                 "Gulp",
                 "Grunt",
@@ -179,8 +177,5 @@
         }
     ],
     "interests": [],
-    "references": [],
-    "meta": {
-        "theme": "elegant"
-    }
+    "references": []
 }
