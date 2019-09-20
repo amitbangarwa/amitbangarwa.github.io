@@ -90,9 +90,9 @@
             "endDate": "2017-08-30",
             "summary": "Built a video based platform for patients to connect directly to doctors at any time from any where.",
             "highlights": [
-                "Built the entire justdoc web app using JavaScript",
+                "Built the entire JustDoc web app using JavaScript",
                 "Built video chat platform between patients and doctors",
-                "Rewrote entire justdoc web app in angular.js",
+                "Rewrote entire JustDoc web app in angular.js",
                 "Used frameworks like Angular Material and Bootstrap",
                 "Building and managing REST api’s (Node.js)",
                 "Built real time chat messaging using socket",
