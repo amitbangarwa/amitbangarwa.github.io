@@ -41,7 +41,7 @@
         {
             "company": "Health Care Innovate Pty Ltd (Clinivid)",
             "position": "Full stack developer",
-            "website": "https://clinivid.com",
+            "website": "https://clinivid.com.au",
             "startDate": "2018-10-01",
             "summary": "I am working on the module called Multidisciplinary Team Meeting (MDT) where the group of professionals from one or more clinical disciplines who together make decisions regarding recommended treatment of individual PATIENTS. This whole module is developed using the ReactJs, Redux, NodeJs, ExpressJs, PostgreSql stacks.",
             "highlights": [
