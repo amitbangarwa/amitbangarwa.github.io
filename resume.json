@@ -108,14 +108,14 @@
                 "ReactJs",
                 "Redux",
                 "AngularJs",
-                "JavaScript/Typescript",
-                "Django"
+                "JavaScript/Typescript"
             ]
         },
         {
             "name": "Backend",
             "keywords": [
                 "NodeJs",
+                "Django",
                 "Python",
                 "Express",
                 "PostgreSQL",
